@@ -7,6 +7,8 @@ phases:
   build:
     commands:
       - echo Build started on `date`
+      - cd ~
+      - ls
       - cd CodeDeployGitHubDemo
       - zip ../example.zip main.js      
   post_build:

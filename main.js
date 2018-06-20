@@ -6,7 +6,7 @@ exports.handler = function (event, context, callback) {
         headers: {
             'Content-Type': 'text/html; charset=utf-8',
         },
-        body: "<p>code deploy!</p>",
+        body: "<p>CODERS DEPLOYINATE!</p>",
     };
     callback(null, response);
 };

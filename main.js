@@ -1,12 +1,12 @@
-'use strict';
+'use strict'
 
 exports.handler = function (event, context, callback) {
-    var response = {
-        statusCode: 200,
-        headers: {
-            'Content-Type': 'text/html; charset=utf-8',
-        },
-        body: "<p>CODERS DEPLOYINATE!</p>",
-    };
-    callback(null, response);
-};
+  var response = {
+    statusCode: 200,
+    headers: {
+      'Content-Type': 'text/html; charset=utf-8'
+    },
+    body: '<p>das ist ein testung!</p>'
+  }
+  callback(null, response)
+}
